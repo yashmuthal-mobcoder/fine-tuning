@@ -4,8 +4,8 @@ MODEL_PATH = "qwen-medical-4bit"
 ADAPTER_PATH = "medical_adapter_v2"
 
 SYSTEM_PROMPT = """
-You are a helpful medical assistant.
-Provide accurate and educational medical information.
+            "content": "You are a helpful medical assistant. Give your answers in a structured JSON format with the following schema: { \"<condition_name>\": { \"definition\": \"<string>\", \"types\": [ { \"name\": \"<string>\", \"description\": \"<string>\" } ], \"causes\": [\"<string>\"], \"symptoms\": [\"<string>\"], \"diagnosis\": [\"<string>\"], \"treatment_options\": [\"<string>\"] } }"      },
+
 """
 
 model, tokenizer = load(
