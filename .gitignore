@@ -1,0 +1,108 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+# =========================
+# Virtual Environments
+# =========================
+.venv/
+venv/
+env/
+mlx-env/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Environment Variables
+# =========================
+.env
+.env.*
+
+# =========================
+# MacOS
+# =========================
+.DS_Store
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# PyCharm
+# =========================
+.idea/
+
+# =========================
+# Hugging Face Cache
+# =========================
+.cache/
+huggingface/
+hf_cache/
+
+# =========================
+# Training Outputs
+# =========================
+medical-qwen-lora/
+medical_qwen_lora/
+medical_adapter/
+medical_adapter_v2/
+checkpoints/
+outputs/
+runs/
+logs/
+
+# =========================
+# MLX Models
+# =========================
+qwen-medical-4bit/
+mlx_models/
+*.safetensors
+
+# =========================
+# Dataset Artifacts
+# =========================
+data/train_dataset/
+data/eval_dataset/
+data/test_dataset/
+
+# Large processed datasets
+*.arrow
+*.parquet
+
+# =========================
+# Training Logs
+# =========================
+*.log
+trainer_state.json
+
+# =========================
+# Weights & Checkpoints
+# =========================
+checkpoint-*/
+pytorch_model.bin
+model.safetensors
+optimizer.pt
+scheduler.pt
+rng_state.pth
+
+# =========================
+# WandB / MLflow
+# =========================
+wandb/
+mlruns/
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
