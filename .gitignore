@@ -106,3 +106,39 @@ mlruns/
 # =========================
 *.tmp
 *.temp
+
+# =========================
+# Hugging Face Models
+# =========================
+Qwen2.5-1.5B-Instruct/
+models/
+downloads/
+
+# =========================
+# MLX Converted Models
+# =========================
+qwen-medical-4bit/
+mlx_models/
+
+# =========================
+# LoRA / QLoRA Adapters
+# =========================
+medical_adapter/
+medical_adapter_v2/
+medical_qwen_lora/
+medical-qwen-lora/
+
+# =========================
+# Model Weights
+# =========================
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# =========================
+# Hugging Face Cache
+# =========================
+.cache/
+huggingface/
